@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="625.0" prefWidth="900.0" style="-fx-background-color: #efdecd;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prosjekt.ChessController">
+   <children>
+      <GridPane fx:id="brett" focusTraversable="true" gridLinesVisible="true" layoutX="318.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="574.0" prefWidth="568.0" style="-fx-background-color: #fff;">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="6.0" right="10.0" top="6.0" />
+         </padding>
+         <children>
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="69.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="2" GridPane.rowIndex="0">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="3" GridPane.rowIndex="0">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="4" GridPane.rowIndex="0">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="5" GridPane.rowIndex="0">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="6" GridPane.rowIndex="0">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="7" GridPane.rowIndex="0">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="0" GridPane.rowIndex="1">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="0" GridPane.rowIndex="7">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="0" GridPane.rowIndex="6">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="6" GridPane.rowIndex="7">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="6" GridPane.rowIndex="6">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="7" GridPane.rowIndex="7">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="7" GridPane.rowIndex="6">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="0" GridPane.rowIndex="3">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="7" GridPane.rowIndex="3">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="0" GridPane.rowIndex="4">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="6" GridPane.rowIndex="4">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="7" GridPane.rowIndex="4">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="0" GridPane.rowIndex="5">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="6" GridPane.rowIndex="5">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+            <Text onMouseClicked="#handleMove" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="65.0" GridPane.columnIndex="7" GridPane.rowIndex="5">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>            
+         </children>
+      </GridPane>
+      <Button fx:id="SaveGame" layoutX="50.0" layoutY="93.0" mnemonicParsing="false" onAction="#handleSaveGame" prefHeight="31.0" prefWidth="202.0" text="Save Game" />
+      <Text layoutX="300.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8" />
+      <Text layoutX="300.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7" />
+      <Text layoutX="300.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" />
+      <Text layoutX="300.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" />
+      <Text layoutX="300.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" />
+      <Text layoutX="300.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" />
+      <Text layoutX="300.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+      <Text layoutX="300.0" layoutY="547.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+      <Text layoutX="356.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A" wrappingWidth="8.51953125" />
+      <Text layoutX="427.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B" />
+      <Text layoutX="489.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C" />
+      <Text layoutX="561.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="D" />
+      <Text layoutX="633.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E" />
+      <Text layoutX="703.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="F" />
+      <Text layoutX="772.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="G" />
+      <Text layoutX="838.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="H" />
+      <Button fx:id="NewGame" layoutX="50.0" layoutY="44.0" mnemonicParsing="false" onAction="#init" prefHeight="31.0" prefWidth="202.0" text="New Game" />
+      <Button fx:id="LoadGame" layoutX="50.0" layoutY="141.0" mnemonicParsing="false" onAction="#handleLoadGame" prefHeight="31.0" prefWidth="202.0" text="Load Game" />
+      <TextField fx:id="gameText" editable="false" layoutX="50.0" layoutY="264.0" prefHeight="31.0" prefWidth="202.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="50.0" layoutY="221.0" prefHeight="26.0" prefWidth="202.0" text="Game info:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
